@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/white_border"
+        android:elevation="10dp"
+        android:gravity="end">
+
+        <!--<android.support.v4.widget.DrawerLayout-->
+        <!--android:id="@+id/drawer_layout"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="Welcome : "
+            android:imeOptions="actionSearch"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/iisuser_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_toRightOf="@id/text"
+            android:background="@null"
+            android:gravity="center"
+            android:imeOptions="actionSearch"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
